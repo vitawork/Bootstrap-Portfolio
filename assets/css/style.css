@@ -9,24 +9,21 @@
   background-color: #4aaaa5;
   color: #ffffff;
   margin: 0 auto;
-  margin-left: 16%;
-  margin-right: 10%;
-  padding: 10px 4% 10px 4%;
+  padding: 10px 10px 10px 10px;
   text-align: center;
   font-size: 40px;
 }
 
-.menu {
-  margin-right: 38%;
+#div_header {
+  background-color: #f8f9fa;
 }
 
 #h1_2nd {
-  /* clear: both; */
   color: #4aaaa5;
   margin-left: 3%;
   margin-right: 3%;
   padding-top: 20px;
-  /* padding-bottom: 10px; */
+  padding-bottom: 50px;
   height: 60px;
   border-bottom: solid 3px #cccccc;
 }
@@ -36,22 +33,11 @@
   border: solid 2px #d8d7d7;
   margin: auto;
   margin-top: 20px;
-}
-
-#picture {
-  width: 100%;
-  /* height: 18%; */
-  /* float: left; */
-  margin-right: 3%;
-  margin-bottom: 2%;
+  margin-bottom: 80px;
 }
 
 #id_section {
   margin: 20px 3% 40px 2%;
-  /* margin-left: 2%;
-    margin-right: 3%;
-    padding-bottom: 2%; */
-  /* width: 94%; */
 }
 
 footer {
@@ -61,13 +47,52 @@ footer {
   height: 25px;
   padding-top: 20px;
   padding-bottom: 30px;
-  /* position: fixed; */
   bottom: 0%;
-  /* width: 100%; */
   color: #b9b7b7;
 }
 
 #submit {
   background-color: #4aaaa5;
   color: white;
+}
+
+h2 {
+  width: 94%;
+  height: 30%;
+  background-color: #4aaaa5;
+  text-align: center;
+  padding-top: 5%;
+  position: absolute;
+  left: 1.5%;
+  bottom: 8%;
+  color: #ffffff;
+  border-top: solid 1px #bdbbbb;
+  border-bottom: solid 1px #bdbbbb;
+}
+
+.img_portfolio {
+  position: relative;
+  padding: 0;
+}
+
+#picture {
+  width: 97%;
+}
+
+.col_form {
+  padding-right: 0;
+  padding-left: 1%;
+}
+
+.div_pict {
+  padding-left: 1%;
+}
+
+.navbar {
+  padding: 0;
+}
+
+#div_navbar {
+  margin: auto;
+  padding: 0;
 }
